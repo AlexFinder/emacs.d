@@ -1,7 +1,4 @@
 
-
-Cc: Aelxfinder <finder.kid@gmail.com>
-
 ;;(require 'chinese-pyim)
 
 (setq x-select-enable-clipboard t)
