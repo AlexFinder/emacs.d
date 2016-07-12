@@ -1,4 +1,7 @@
 
+
+Cc: Aelxfinder <finder.kid@gmail.com>
+
 ;;(require 'chinese-pyim)
 
 (setq x-select-enable-clipboard t)
@@ -27,6 +30,9 @@
     (setq interprogram-cut-function 'xsel-cut-function)
     (setq interprogram-paste-function 'xsel-paste-function))) 
 
+
+;; gtd setting
+(setq org-agenda-files (list "~/.gtd/"))
 
 (provide 'init-local)
 
